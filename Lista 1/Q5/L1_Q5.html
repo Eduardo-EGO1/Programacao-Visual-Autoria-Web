@@ -1,0 +1,30 @@
+<!--5) Crie um formulário com os campos para cadastrar o usuário de um sistema (login, senha e
+confirmar senha).
+Valide se todos os campos estiverem preenchidos, se os campos senha e confirma senha forem
+iguais e a senha possuir entre 6 e 10 caracteres.
+Envie um alerta (alert) com a resposta.  !-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "style.css">
+  <title>Questão 5</title>
+</head>
+<body>
+  <form>
+    <h1>Cadastro de usuário</h1>
+  <label for = "email">Digite seu melhor e-mail</label>
+  <input type = "email" id = "email" required></input>
+  <label for = "password">Digite sua senha</label>
+  <input type = "password" id = "password" required></input>
+  <label for = "password1">Confirme sua senha</label>
+  <input type = "password" id = "password1" required></input>
+  <input type = "submit" id = "button" value = "Cadastrar Usuário" onclick = "enviar()"></input> 
+  </form>
+  
+<script src = "script.js"></script>
+</body>
+</html>
