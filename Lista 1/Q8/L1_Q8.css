@@ -1,0 +1,12 @@
+/* Centraliza o formulário na tela */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+form {
+    text-align: center;
+}
