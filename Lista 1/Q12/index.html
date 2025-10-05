@@ -1,0 +1,57 @@
+<!--  12) Crie uma página contendo um determinado texto (pode ser qualquer texto da internet).
+Acima do texto, inclua um formulário com um campo e um botão Pesquisar. Ao digitar uma
+palavra dentro do campo e pressionar o botão Pesquisar, conte quantas ocorrências daquela
+palavra existem ao longo do texto e destaque cada ocorrência com um plano de fundo amarelo
+(conforme esse exemplo: palavra). Caso a palavra não exista no texto, exiba uma mensagem
+abaixo do campo de texto indicando que a busca não retornou nenhum resultado    -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Questão 12</title>
+</head>
+
+<body>
+    <form id="searchForm">
+        <label for="pesquisar">Pesquisar:</label>
+        <input type="search" id="pesquisar" placeholder="Digite sua pesquisa">
+        <button type="button" onclick="searchAndHighlight()">Pesquisar</button>
+        <p id="messageArea"></p>
+    </form>
+
+    <hr>
+    
+    <div id="textContainer">
+        <h1>A chegada do Titã Colossal</h1>
+
+        <p>O Distrito de Shiganshina vivia mais um dia na rotina de seus moradores, quando, de repente, um titã de
+        aproximadamente 60 metros (que mais tarde seria conhecido por Colossal), abre um buraco na muralha de 50 metros que,
+        até então, era sinônimo de orgulho e segurança para os habitantes do distrito.</p>
+
+        <p>Com esse feito, titãs menores invadem o local, massacrando os cidadãos e destruindo tudo ao redor, fazendo com que
+        parte da população busque meios para uma possível fuga.</p>
+
+        <h1>Treinamento</h1>
+
+        <p>Dois anos decorrem após a invasão de Shiganshina. Eren, Mikasa mais Armin, um amigo sobrevivente, agora adolescentes,
+        se tornam recrutas do exército no qual, ao se formarem, estariam aptos a ingressarem em uma das três divisões,
+        denominadas, Tropas Estacionárias, que vigiam e reforçam as muralhas, Tropa de Exploração, que sacrificam suas vidas
+        lutando contra os titãs em seu território e Polícia Militar, que protege a paz e a população na terra do rei, sendo
+        esse último considerado cargo de elite, pois apenas os dez melhores recrutas entrariam para a Polícia Militar.</p>
+
+        <p>Após três anos de treinamento, Eren, Mikasa, Armin e mais alguns recrutas, com bastante relevância para a obra, se
+        formam soldados. O trio recebe o privilégio de ingressar na polícia, contudo, Eren recusa o posto e informa aos
+        companheiros que entraria para a Tropa de Exploração.</p>
+        <br>
+        <br>
+        <p>Os amigos e colegas do novo soldado, por sua vez, decidem segui-lo em sua decisão, mas, infelizmente, logo a alegria
+        do grupo é interrompida pelo acontecimento negativo a seguir.</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#messageArea {
+  color: red;
+  margin-top: 10px;
+}
+
+
+.highlight {
+    background-color: yellow; 
+    font-weight: bold;       
+    padding: 2px 0;
+}        
