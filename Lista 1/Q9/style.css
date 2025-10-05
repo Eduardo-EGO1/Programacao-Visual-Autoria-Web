@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 40rem;
+}
+
+form input {
+  margin-bottom: 20px;
+}
+
+input#button {
+
+  padding: 15px;
+  cursor: pointer;
+}

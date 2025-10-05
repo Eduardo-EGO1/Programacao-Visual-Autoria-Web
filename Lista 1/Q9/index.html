@@ -1,0 +1,28 @@
+<!--9) Crie uma função em JavaScript que receba 2 palavras através de campos de formulário e
+depois imprima-as intercaladas em um outro campo de formulário que deve está desabilitado
+(o usuário não deve conseguir digitar nenhum valor nesse campo). Ex.: ‘Joao’ e ‘Mary’; a
+impressão deve ser: ‘JMoaaroy’.!-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questão 9</title>
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  <form>
+    <h1>Intercalador de Nomes</h1>
+    <label for = "nomes">Digite seu nome</label>
+    <input type = "text" class = "nomes" />
+    <label for = "nomes">Digite seu nome</label>
+    <input type = "text" class = "nomes" />
+    <label for = "nomes-misturados">Nomes intercalados</label>
+    <input type = "text" id = "nomes-misturados" readonly />
+    <br>
+    <input type = "button" value = "Intercalar Nomes" onclick="misturaNome()" id = "button"/>
+  </form>
+  <script src = "script.js"></script>
+</body>
+</html>
